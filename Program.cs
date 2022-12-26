@@ -22,7 +22,7 @@ else Console.WriteLine($"Ваше число: {number} - НЕ палиндром
 A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53*/
 
-System.Console.Write("Введите коррдинату x точки А: ");
+/*System.Console.Write("Введите коррдинату x точки А: ");
 int x1 = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите коррдинату y точки А: ");
 int y1 = Convert.ToInt32(Console.ReadLine());
@@ -39,7 +39,25 @@ int z2 = Convert.ToInt32(Console.ReadLine());
 double result = Math.Sqrt((x1 - x2) * (x1 - x2) 
                          + (y1 - y2) * (y1 - y2) 
                          + (z1 - z2) * (z1 - z2));
-System.Console.WriteLine($"Расстояние между двумя точками: {result}");
+System.Console.WriteLine($"Расстояние между двумя точками: {result}");*/
+
+/*Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+3 -> 1, 8, 27
+5 -> 1, 8, 27, 64, 125*/
+
+System.Console.Write("Введите число: ");
+int x = Convert.ToInt32(Console.ReadLine());
+
+// for(int i = 1; i <= x; i++)
+// {
+// System.Console.WriteLine(Math.Pow(i, 2));
+// }
+int count = 1;
+while(count <= x)
+{
+System.Console.Write(Math.Pow(count, 3)+" ");
+count++;
+}
 
 
 
