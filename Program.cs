@@ -39,7 +39,6 @@ int z2 = Convert.ToInt32(Console.ReadLine());
 double result = Math.Sqrt((x1 - x2) * (x1 - x2) 
                          + (y1 - y2) * (y1 - y2) 
                          + (z1 - z2) * (z1 - z2));
-//Math.Round(Math.Sqrt(Math.Pow((x1 - y2 - z1), 2) + Math.Pow((x2 - y2 - z2), 2)), 4);
 System.Console.WriteLine($"Расстояние между двумя точками: {result}");
 
 
